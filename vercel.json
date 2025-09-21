@@ -1,6 +1,12 @@
 {
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "/api/$1" },
-    { "source": "/(.*)", "destination": "/" }
+    {
+      "source": "/api/parseAppId",
+      "destination": "https://tradenote-qxfa.onrender.com/parse"
+    },
+    {
+      "source": "/api/posthog",
+      "destination": "https://tradenote-qxfa.onrender.com/parse"
+    }
   ]
 }
