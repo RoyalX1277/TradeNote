@@ -720,7 +720,7 @@ export function useInitTooltip() {
 
 export async function useInitPostHog() {
     return new Promise((resolve, reject) => {
-        axios.post('/api/posthog')
+        // axios.post('/api/posthog')
             .then((response) => {
                 //console.log(response);
                 if (response.data != "off") {
